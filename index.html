@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DEMO — This is a Test Page</title>
+  <style>
+    /* Basic reset */
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html,body { height: 100%; font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
+
+    /* Background */
+    body {
+      background: radial-gradient(ellipse at center, #0f0f12 0%, #060607 50%, #000000 100%);
+      color: #fff;
+      display: grid;
+      place-items: center;
+      padding: 2rem;
+    }
+
+    /* Card */
+    .card {
+      width: min(1100px, 96%);
+      border-radius: 16px;
+      padding: 2.2rem;
+      background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));
+      box-shadow: 0 10px 40px rgba(0,0,0,0.7), inset 0 1px 0 rgba(255,255,255,0.02);
+      display: grid;
+      grid-template-columns: 1fr 340px;
+      gap: 1.5rem;
+      align-items: center;
+      backdrop-filter: blur(6px);
+    }
+
+    /* Left: headline and message */
+    .left h1 {
+      font-size: 4rem;
+      line-height: 1;
+      letter-spacing: -2px;
+      margin-bottom: 0.2rem;
+      position: relative;
+      display: inline-block;
+    }
+
+    /* Glitch effe*
